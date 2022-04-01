@@ -165,6 +165,10 @@ a {
     fill: var(--color-primary);
 }
 
+.icon--secondary {
+    fill: var(--color-secondary);
+}
+
 .icon-container {
     display: inline-flex;
     background: #f3f9fa;
@@ -372,9 +376,23 @@ a {
     .plan .btn {
         font-size: 1.4rem;
     }
+}
 
+/* Media */
+.media {
+    display: flex;
+}
 
+.media__title {
+    margin-top: 0;
+}
 
+.media__body {
+    margin: 0 2rem;
+}
 
+.media__image {
+    margin-top: 1rem;
+}
 
 
