@@ -1,6 +1,7 @@
 <svg width="0" height="0" class="hidden">
   <symbol id="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 51">
-    <defs></defs>
+    <defs>
+    </defs>
     <circle cx="25.5" cy="25.5" r="25.5"></circle>
     <rect x="24.4" y="27.9" width="1.6" height="15.24" rx="0.8" transform="matrix(0.78, -0.63, 0.63, 0.78, -21.26, 15.39)"></rect>
     <rect x="33.3" y="27.9" width="1.6" height="15.24" rx="0.8" transform="translate(24 -21.9) rotate(37.3)"></rect>
