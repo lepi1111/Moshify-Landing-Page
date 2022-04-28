@@ -224,7 +224,7 @@ a {
     font-weight: 600;
     margin: 1rem 0;
     outline: 0;
-    padding: 2rem 3rem;
+    padding: 2rem 4vh;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -316,6 +316,7 @@ a {
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 2rem;
+    width: 0;
 }
 
 .input-group .btn {
@@ -538,6 +539,7 @@ a {
 /* Testimonials */
 .testimonial {
     padding: 4rem;
+    margin-bottom: 10rem;
 }
 
 .testimonial__image {
@@ -650,6 +652,10 @@ a {
 .block__header {
     text-align: center;
     margin-bottom: 4rem;
+}
+
+.block--header__h2 {
+    margin-top: 20rem;
 }
 
 .block__heading {
@@ -779,8 +785,9 @@ a {
 }
 
 .block-domain__prices {
+    color: var(--color-headings);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,6rem);
     font-size: 2rem;
     font-weight: 600;
